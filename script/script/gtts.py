@@ -10,7 +10,6 @@ for voice in voices:
     print(voice.id, voice.name)
 
 engine.say("Hello FIVE, your automation is sounding great!")
-print("Program successfully Ended")
 engine.runAndWait()
 
 
